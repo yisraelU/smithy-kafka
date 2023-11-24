@@ -1,0 +1,4 @@
+kafka.KafkaAvroTrait$Provider
+kafka.PublishTrait$Provider
+kafka.SubscribeTrait$Provider
+kafka.TopicLabelTrait$Provider
