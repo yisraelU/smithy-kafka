@@ -4,7 +4,7 @@ ThisBuild / scalaVersion := "2.13.12"
 Global / onChangedBuildSource := ReloadOnSourceChanges
 
 addCommandAlias("fmt", ";scalafmtSbt;scalafmtAll;")
-val modulePrefix = "smithy-kafka"
+val modulePrefix = "smithy4s-kafka"
 
 lazy val root = (project in file("."))
   .settings(

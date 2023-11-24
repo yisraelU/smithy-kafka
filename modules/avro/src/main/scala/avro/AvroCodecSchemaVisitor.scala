@@ -141,9 +141,7 @@ object AvroCodecSchemaVisitor extends CachedSchemaCompiler.Impl[Codec] {
     }
 
     override def lazily[A](suspend: Lazy[Schema[A]]): Codec[A] = {
-
       suspend.value.compile(this)
-
     }
 
     override def option[A](schema: Schema[A]): Codec[Option[A]] = {
